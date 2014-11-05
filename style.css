@@ -1,0 +1,6 @@
+	#background{border:solid;border-width:2px;border-color:#5B5B5B; height:1100px;width:900px; background-color:#ee5500;}
+	#top{height:200px;width:900px;border:solid;border-width:2px;border-color:#7B7B7B; background-image: url(Images/Background/header.jpg);}
+        #top h1{color:black;margin-top: 100;line-height: 0.25;margin-right: 30;text-align: right;font-family:Lucida Handwriting;font-size: 70px;font-style: italic;}
+        #top h1 p{color:white;margin-right: 27;text-align: right;font-family:times new romen;font-size: 22px;font-style: normal;}
+        #content{margin-left: 10px;margin-right: 10px;height:1000px;width:800px;}
+	#footer{font-weight: bolder;height:100px;width:900px;line-height: 0.4;}

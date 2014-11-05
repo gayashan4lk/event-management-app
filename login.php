@@ -1,0 +1,14 @@
+<?php
+    session_start();
+    if(isset($_SESSION["un"])){
+        if($_SESSION["un"]=="admin"){
+            header("location:admin.php");
+        }
+        else{
+            header("location:member.php");
+        }
+    }
+    else{
+        header("location:invalidmember.php");
+    }
+?>
